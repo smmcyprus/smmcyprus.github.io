@@ -78,7 +78,7 @@
       "textButton": "Agree"
     },
     "gdpr": "",
-    "uniqCompNum": 108,
+    "uniqCompNum": 122,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: privacy.html\n\n",
@@ -899,7 +899,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n<a class=\"twitter-timeline\" href=\"https://twitter.com/vtziortzis\" data-tweet-limit=\"1\" data-width=\"600\" data-height=\"400\" data-theme=\"dark\"></a>\n[JS_CODE_0]\n    \n <div>   \n    <iframe width=\"600\" height=\"340\" src=\"https://www.youtube.com/embed/+lastest?list=UU8yBdhBLBL5AJdiDekLIv9w\" frameborder=\"0\" allowfullscreen=\"\" description=\"1\"></iframe>\n\n</div></div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe width=\"600\" height=\"340\" src=\"https://www.youtube.com/embed/+lastest?list=UU8yBdhBLBL5AJdiDekLIv9w\" frameborder=\"0\" allowfullscreen=\"\" description=\"1\"></iframe>\n\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n  background-color:#232323\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -907,11 +907,9 @@
           ],
           "_name": "pro.custom-html",
           "_params": {},
-          "_anchor": "custom-html-2z",
+          "_anchor": "custom-html-3d",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script async src=\"http://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
-          ]
+          "_JSplaceholders": []
         },
         {
           "_params": {
@@ -949,7 +947,7 @@
               "color": "#ffffff"
             }
           },
-          "_anchor": "instagram-feed-block-1d"
+          "_anchor": "instagram-feed-block-3c"
         },
         {
           "alias": false,
@@ -2270,11 +2268,11 @@
           "_name": "content10",
           "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Option 1</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
           "_cid": "rKg8isnJMw",
+          "_anchor": "content10-2b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content10-2b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -2423,7 +2421,7 @@
             }
           },
           "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\"><b>Успешный бизнес /Succesful Business:</b> &nbsp;</a></b><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\">Владимир Тжорджис: Formula — идеальная платформа для спонсора</a></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/-succesful-business-436x227.jpg\" alt=\"Successful Business article\" title></a>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\"><b>Успешный бизнес /Succesful Business:</b> &nbsp;</a></b><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\">Владимир Тжорджис: Formula — идеальная платформа для спонсора</a></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/succesful-business-436x227.jpg\" alt=\"Successful Business article\" title></a>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rKbTEzboZn",
           "_anchor": "content7-1y",
           "_protectedParams": [],
@@ -2987,7 +2985,7 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/-succesful-business-436x227.jpg\" alt=\"Cyprus Mail article\" title></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\"><b>Успешный бизнес /Succesful Business:</b></a>  <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\">Владимир Тжорджис: Formula — идеальная платформа для спонсора</a><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/succesful-business-436x227.jpg\" alt=\"Cyprus Mail article\" title></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\"><b>Успешный бизнес /Succesful Business:</b></a>  <a href=\"https://www.cyprusrussianbusiness.com/index.php/people/4952-vladimir-tzhordzhis-formula-idealnaya-platforma-dlya-sponsora?fbclid=IwAR0LK17LGDnV9CZKs2Z454WH1cpZsep7B2unwLnJmdMo9ebXJmKeqRkAMO4\" target=\"_blank\" class=\"text-black\">Владимир Тжорджис: Formula — идеальная платформа для спонсора</a><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content6-2o",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
