@@ -912,32 +912,6 @@
           "_JSplaceholders": []
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "postToLoad": "1",
-            "facebookToken": "",
-            "facebook": "",
-            "twitter": "vtziortzis",
-            "youtube": "UC8yBdhBLBL5AJdiDekLIv9w",
-            "bgColorRadio": true,
-            "bgColor": "#232323",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "feed",
-          "_customCSS": "div.mbr-social-feed{\n    width:300px;\n}",
-          "_anchor": "feed-3g"
-        },
-        {
           "_params": {
             "token": "2188562009.727bfe1.c7beebce068d44e197a949ddc5f4c357",
             "showTitle": true,
