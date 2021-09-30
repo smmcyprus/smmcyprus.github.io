@@ -1,0 +1,9 @@
+.ccpw-icon::before {
+    z-index: -1;
+    opacity: 0;
+}
+i.eicon-price-table.ccpw-icon {
+    background-image: url(https://ps.w.org/cryptocurrency-price-ticker-widget/assets/icon-128x128.png?rev=1793485);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

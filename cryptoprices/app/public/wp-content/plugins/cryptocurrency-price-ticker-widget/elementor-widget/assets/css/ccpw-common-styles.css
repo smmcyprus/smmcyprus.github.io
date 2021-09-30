@@ -1,0 +1,15 @@
+.ccpw-wrapper .ccpw-price-change .ccpw-change-percent{
+    font-family:22px;
+    font-weight: 400;
+    margin-left:55px;   
+ }
+ 
+ .ccpw-wrapper span.changes.up {
+    color: #67c624;
+}
+.ccpw-wrapper span.changes.down {
+    color: #ed1414;
+}
+.ccpw-wrapper li {
+    list-style: none;
+}

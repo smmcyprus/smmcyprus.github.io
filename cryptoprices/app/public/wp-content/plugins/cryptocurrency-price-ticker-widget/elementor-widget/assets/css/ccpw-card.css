@@ -1,0 +1,127 @@
+.ccpw-wrapper.ccpw-price-card{
+    display:block;
+    max-width:100%;   
+    margin-bottom: 30px;    
+    justify-content: space-evenly;    
+    margin:0px auto;
+    /* width:1200px; */
+}
+.ccpw-price-card {
+    padding:15px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 60px 0 rgb(0 0 0 / 8%); 
+    border-radius:10px;
+    background-color: white;
+}
+.ccpw-price-card .ccpw-inner-section{
+    padding: 10px 30px;
+}
+
+/*  card inner css */
+.ccpw-price-card .ccpw-title-section{
+   display: flex;
+   flex:0 0 100%;
+   max-width: 100%;
+}
+.ccpw-price-card .ccpw-coin-name{
+    width: max-content;
+}
+
+.ccpw-price-card .ccpw-coin-name span{     
+   font-size: 20px;
+   font-weight: 600;   
+}
+.ccpw-price-card .ccpw-logo-section{
+    max-width: 30%;
+    flex:0 0 30%;
+}
+.ccpw-price-card .ccpw-price-section{
+    max-width: 70%;
+    flex:0 0 70%;
+    overflow: hidden;
+    text-align: end;
+}
+.ccpw-price-card .ccpw-logo-section .ccpw-coin-logo{
+   height: 50px;
+   width:50px;
+   overflow: hidden;
+   margin-bottom: 5px;
+   overflow: hidden;
+}
+.ccpw-price-card .ccpw-logo-section .ccpw-coin-logo img{
+   height:100%;
+   width:100%;
+}
+.ccpw-price-card .ccpw-coin-price {
+   margin-bottom: 10px;
+}
+
+.ccpw-price-card .ccpw-price{
+   font-size: 26px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.ccpw-price-card .ccpw-coin-symbol{
+    font-size: 13px;
+    color: #999;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.ccpw-price-card .ccpw-info-item:last-child{
+    border-bottom: none;
+}
+.ccpw-price-card .ccpw-coin-info{
+    color: #777;
+    margin-top:20px;
+}
+.ccpw-price-card .ccpw-info-item{
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 7px 0 7px 0;
+}
+.ccpw-price-card .ccpw-info-item span{
+   font-size: 13px;   
+   margin-top: 4px;
+}
+
+
+/* media query  */
+
+@media(max-width:768px){
+ 
+    .ccpw-wrapper.ccpw-price-card {
+       display: block;
+       width:100%;
+    }
+    .ccpw-price-card .ccpw-inner-section{
+       max-width: 100%;
+       margin-bottom: 10px;
+       padding: 10px;
+    }
+    .ccpw-price-card .ccpw-price-change .ccpw-change-percent{
+        margin-left:0px
+    }
+    .ccpw-price-card .ccpw-coin-name {
+        margin-bottom: 10px;
+       
+    }
+}
+
+@media(max-width:620px){
+    .ccpw-price-card .ccpw-title-section{
+       display: block;
+    }
+    .ccpw-price-card .ccpw-logo-section, .ccpw-price-card .ccpw-price-section{
+       display: block;
+       width: 100%;
+       margin:0  auto;
+       text-align: center;
+       margin-bottom: 15px;
+    }   
+    .ccpw-price-card .ccpw-coin-logo{
+       text-align: center;
+       margin: auto;
+    }
+}

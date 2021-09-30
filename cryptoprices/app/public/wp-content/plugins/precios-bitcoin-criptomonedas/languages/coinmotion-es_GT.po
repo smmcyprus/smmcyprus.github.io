@@ -1,0 +1,611 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coinmotion 2.0\n"
+"POT-Creation-Date: 2020-10-23 11:04+0200\n"
+"PO-Revision-Date: 2020-10-29 10:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPath-3: public\n"
+"X-Poedit-SearchPath-4: coinmotion.php\n"
+"X-Poedit-SearchPath-5: index.php\n"
+"X-Poedit-SearchPath-6: uninstall.php\n"
+
+#: admin/coinmotion.php:49
+msgid "Great!"
+msgstr "Fantástico!"
+
+#: admin/coinmotion.php:49
+msgid "Data updated successfully."
+msgstr "Datos actualizados correctamente."
+
+#: admin/coinmotion.php:52
+msgid "Error"
+msgstr "Error"
+
+#: admin/coinmotion.php:52
+msgid "There are a problem updating data."
+msgstr "Ha habido un problema actualizando los datos."
+
+#: admin/coinmotion.php:70
+msgid "Home"
+msgstr "Inicio"
+
+#: admin/coinmotion.php:79
+msgid "Referral button"
+msgstr "Botón de afiliado"
+
+#: admin/coinmotion.php:88
+msgid "Price evolution"
+msgstr "Evolución del Precio"
+
+#: admin/coinmotion.php:97
+msgid "Historical data"
+msgstr "Datos históricos"
+
+#: admin/coinmotion.php:106
+msgid "Currency/Crypto conversor"
+msgstr "Conversor Divisa/Cripto"
+
+#: admin/coinmotion.php:115
+msgid "Shortcode Currency/Crypto carousel"
+msgstr "Shortcode para el carrusel Divisa/Cripto"
+
+#: admin/coinmotion.php:134
+msgid "From here you can change some characteristics globally."
+msgstr "Desde aquí puedes cambiar algunas características globales."
+
+#: admin/coinmotion.php:140
+msgid "Referral code"
+msgstr "Código de afiliado"
+
+#: admin/coinmotion.php:153 includes/class.coinmotion_widget_0.php:81
+msgid "Button text"
+msgstr "Texto del Botón"
+
+#: admin/coinmotion.php:177
+msgid "Button background color"
+msgstr "Color de fondo del botón"
+
+#: admin/coinmotion.php:190
+msgid "Button text color"
+msgstr "Color del texto del botón"
+
+#: admin/coinmotion.php:203
+msgid "Button hover background color"
+msgstr "Color de fondo de hover del botón"
+
+#: admin/coinmotion.php:206 admin/coinmotion.php:285
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/coinmotion.php:234
+msgid "Plugin of the regulated cryptocurrency provider Coinmotion."
+msgstr "Plugin del proveedor regulado de criptomonedas Coinmotion."
+
+#: admin/coinmotion.php:235
+msgid ""
+"Here you can choose the currency that will be used globally to convert the "
+"value of the cryptocurrencies to fiat."
+msgstr ""
+"Aquí podrás elegir la divisa que se utilizará de forma global para convertir "
+"el valor de las criptomonedas a fiat."
+
+#: admin/coinmotion.php:236
+#, fuzzy
+#| msgid ""
+#| "Convert the value of cryptocurrencies to the following currency: EUR, "
+#| "USD, CAD"
+msgid "Convert the value of cryptocurrencies to the following currency:"
+msgstr "Convertir el valor de las criptomonedas a la siguiente divisa:"
+
+#: admin/coinmotion.php:310
+msgid ""
+"This widget allows you to visualize in a graph the evolution of the price of "
+"the selected cryptocurrency. In the widget you can mainly set the time "
+"period to display and the currency that will be used to display the "
+"equivalent value of the cryptocurrency."
+msgstr ""
+"Este widget te permite visualizar en un gráfico la evolución del precio de "
+"la criptomoneda seleccionada. En el widget puedes principalmente establecer "
+"el periodo de tiempo a mostrar y la moneda que quieres usar para mostrar su "
+"equivalencia con la criptomoneda."
+
+#: admin/coinmotion.php:311 admin/coinmotion.php:349 admin/coinmotion.php:379
+msgid "To add and configure this widget you have to go to:"
+msgstr "Para añadir y configurar este widget tienes que ir a:"
+
+#: admin/coinmotion.php:312 admin/coinmotion.php:350 admin/coinmotion.php:380
+msgid "Appearance > Widgets"
+msgstr "<a href=/wp-admin/widgets.php>Apariencia > Widgets</a>"
+
+#: admin/coinmotion.php:313 admin/coinmotion.php:351 admin/coinmotion.php:381
+#: admin/coinmotion.php:409
+msgid ""
+"At the end of this tab you have an explanation of each of the features that "
+"you can configure."
+msgstr ""
+"A continuación tienes una explicación de cada una de las características que "
+"puedes configurar"
+
+#: admin/coinmotion.php:315 admin/coinmotion.php:352 admin/coinmotion.php:382
+msgid "<strong>Header Title</strong>: The header title of the widget"
+msgstr ""
+"<strong>Título de la Cabecera</strong>: El título de la cabecera del Widget"
+
+#: admin/coinmotion.php:316
+msgid "<strong>Line Color</strong>: Color of the graph line"
+msgstr "<strong>Color de la Línea</strong>: Color de la línea del gráfico"
+
+#: admin/coinmotion.php:317
+msgid "<strong>Background Color</strong>: Background color of the graph line"
+msgstr "<strong>Color de Fondo</strong>: Color de Fondo del gráfico de líneas"
+
+#: admin/coinmotion.php:318
+#, php-format
+msgid ""
+"<strong>Width</strong>: Desired width of the widget. You can set with % or px"
+msgstr ""
+"<strong>Anchura</strong>: Anchura deseada del Widget. Puedes establecerlo en "
+"% o px"
+
+#: admin/coinmotion.php:319
+#, php-format
+msgid ""
+"<strong>Height</strong>: Desired height of the widget. You can set with % or "
+"px"
+msgstr ""
+"<strong>Altura</strong>: Altura deseada del Widget. Puedes indicar % o px"
+
+#: admin/coinmotion.php:320
+msgid "<strong>Points</strong>: Points to show on the graph"
+msgstr "<strong>Puntos</strong>: Puntos a mostrar en el gráfico"
+
+#: admin/coinmotion.php:321
+msgid "<strong>Period</strong>: Time period to be displayed on the graph"
+msgstr "<strong>Periodo</strong>: Periodo de tiempo mostrado en el gráfico"
+
+#: admin/coinmotion.php:322 admin/coinmotion.php:353
+msgid "<strong>Currency</strong>: Currency in which the data will be displayed"
+msgstr ""
+"<strong>Criptomoneda</strong>: Criptomoneda de la que mostrar los datos"
+
+#: admin/coinmotion.php:323 admin/coinmotion.php:354
+msgid ""
+"<strong>Data</strong>: Type of the data to show, must be Price or Interest"
+msgstr ""
+"<strong>Datos</strong>: Tipo de datos a mostrar, debe ser Precio o Interés"
+
+#: admin/coinmotion.php:347
+msgid ""
+"This widget displays historical data of the cryptocurrency you choose. From "
+"the current price to its maximum and minimum of 1 week, 1 month, 3 months "
+"and 1 year ago."
+msgstr ""
+"Este widget muestra datos históricos de la criptomoneda que elijas. Desde el "
+"precio actual hasta su máximo o mínimo en 1 día, 1 semana, 1 mes, 3 meses o "
+"1 año."
+
+#: admin/coinmotion.php:378
+msgid ""
+"The widget is a two-way converter of the amount you set of a cryptocurrency, "
+"calculating its equivalent value in the chosen currency."
+msgstr ""
+"Este widget es un conversor en dos sentidos de la cantidad que establezcas "
+"en la criptomoneda, calculando su equivalente en la divisa elegida."
+
+#: admin/coinmotion.php:383
+msgid "<strong>Text Color</strong>: Color of the text"
+msgstr "<strong>Color del Texto</strong>: Color del Texto"
+
+#: admin/coinmotion.php:384
+msgid "<strong>Background color</strong>: Background color of the conversor"
+msgstr "<strong>Color de fondo</strong>: Color de fondo del conversor"
+
+#: admin/coinmotion.php:408
+msgid ""
+"Shortcode that will allow you to show where you want a carousel with the "
+"main cryptocurrencies and their price in the currency you have selected."
+msgstr ""
+"Shortcode que te permitirá mostrar donde tú quieras un carrusel con las "
+"principales criptomonedas y su cotización en la divisa que tengas "
+"seleccionada"
+
+#: admin/coinmotion.php:411
+msgid ""
+"<strong>text_color</strong>: (RGB or CSS color). Color of the text for the "
+"Currency Name. Default black"
+msgstr ""
+"<strong>text_color</strong>: (colores RGB o CSS). Color del texto para el "
+"nombre de la Divisa. Por defecto “black”"
+
+#: admin/coinmotion.php:412
+msgid ""
+"<strong>orientation</strong>: (vertical / horizontal). Show in vertical or "
+"horizontal distribution. Default horizontal."
+msgstr ""
+"<strong>orientation</strong>: (vertical / horizontal). Muestra distribución "
+"vertical / horizontal. Por defecto “horizontal”."
+
+#: admin/coinmotion.php:413
+msgid ""
+"<strong>show_button</strong>: (on / off). Show the Affiliate button. Default "
+"off"
+msgstr ""
+"<strong>show_button</strong>: (on / off). Muestra el botón de afiliado. Por "
+"defecto “off”"
+
+#: admin/coinmotion.php:414
+msgid ""
+"<strong>cryptos</strong>: (btc,ltc,eth,xrp,xlm). Set the currencies to show. "
+"Default btc,ltc,eth,xrp,xlm."
+msgstr ""
+"<strong>cryptos</strong>: (btc,ltc,eth,xrp,xlm). Elige las criptomonedas a "
+"mostrar. Por defecto “btc,ltc,eth,xrp,xlm”."
+
+#: admin/coinmotion.php:416
+msgid "<strong>Shortcode Example</strong>"
+msgstr "<strong>Ejemplo de Shortcode</strong>"
+
+#: admin/sidebar.inc.php:5
+msgid "Join Coinmotion"
+msgstr "Únete a Coinmotion"
+
+#: admin/sidebar.inc.php:7
+#, php-format
+msgid ""
+"Each time a new user that has registered using your referral link in the "
+"plugin buys or sells cryptocurrencies in Coinmotion, you will receive 50% of "
+"all trade commissions charged on that user during the first 12 months."
+msgstr ""
+"Cada vez que un nuevo usuario que se ha registrado usando el link con el "
+"código de afiliado compra o vende criptomonedas en Coinmotion, recibirás un "
+"50% en todas nuestra comisiones de trading durante los primeros 12 meses-"
+
+#: admin/sidebar.inc.php:8
+#, php-format
+msgid ""
+"In addition, your users will enjoy a trade commission reduced by 50% during "
+"the first 30 days by creating an account in Coinmotion using your link."
+msgstr ""
+"Además. tus usuarios disfrutarán de una comisión reducida del 50%  en el "
+"trading los primeros 30 días creando una cuenta en Coinmotion usando el "
+"enlace."
+
+#: admin/sidebar.inc.php:9
+msgid ""
+"Your rewards will be credited to your Coinmotion account. For that you must "
+"have or create a free account in Coinmotion."
+msgstr ""
+"Tus recompensas serán añadidas a tu cuenta Coinmotion. Para ello debes crear "
+"o tener una cuenta gratuita en Coinmotion."
+
+#: admin/sidebar.inc.php:12
+msgid "Create a free account"
+msgstr "Crear cuenta gratuita"
+
+#: coinmotion.php:58
+msgid "price"
+msgstr "precio"
+
+#: coinmotion.php:59
+msgid "interest"
+msgstr "interés"
+
+#: coinmotion.php:60
+msgid "hour"
+msgstr "hora"
+
+#: coinmotion.php:61 includes/settings.php:6
+msgid "Real time prices"
+msgstr "Precios en Tiempo Real"
+
+#: coinmotion.php:62 includes/settings.php:7
+msgid "WIDGET_REFERRAL"
+msgstr "CODIGO_AFILIADO"
+
+#: coinmotion.php:63 includes/settings.php:8
+msgid "Buy now"
+msgstr "Comprar Ahora"
+
+#: coinmotion.php:64
+msgid "Cryptocurrencies and Bitcoin Prices"
+msgstr "Precios Bitcoin y Criptomonedas"
+
+#: coinmotion.php:65
+msgid ""
+"Plugin with several widgets with multiple features about cryptocurrencies. "
+"Customize language, colors, currencies, data, among 10 other options."
+msgstr ""
+"Plugin con varios widgets con múltiples funcionalidades sobre criptomonedas. "
+"Personaliza idioma, colores, divisas, datos, entre otras 10 opciones más."
+
+#: coinmotion.php:90
+msgid "Coinmotion Settings"
+msgstr "Configuración Coinmotion"
+
+#: coinmotion.php:90
+msgid "Coinmotion"
+msgstr "Coinmotion"
+
+#: coinmotion.php:159
+msgid "Settings"
+msgstr "Configuración"
+
+#: includes/class.coinmotion_values.php:147 includes/settings.php:19
+msgid "Price Evolution"
+msgstr "Evolución del Precio"
+
+#: includes/class.coinmotion_values.php:160 includes/settings.php:34
+msgid "Historical Data"
+msgstr "Datos históricos"
+
+#: includes/class.coinmotion_values.php:168 includes/settings.php:44
+msgid "Currency/Crypto Conversor"
+msgstr "Conversor Divisa/Cripto"
+
+#: includes/class.coinmotion_widget_0.php:6
+msgid "Sidebar widget to display cryptocurrencies exchange rates in real time."
+msgstr ""
+"Widget para el sidebar para mostrar el cambio de las criptomonedas en tiempo "
+"real."
+
+#: includes/class.coinmotion_widget_0.php:8
+msgid "Coinmotion: Price Table"
+msgstr "Coinmotion: Tabla de Precios"
+
+#: includes/class.coinmotion_widget_0.php:79
+msgid "Table Title"
+msgstr "Título de la Tabla"
+
+#: includes/class.coinmotion_widget_0.php:80
+msgid "Invitation code"
+msgstr "Código de Afiliado"
+
+#: includes/class.coinmotion_widget_0.php:82
+msgid "Button Background Color"
+msgstr "Color de fondo del Botón"
+
+#: includes/class.coinmotion_widget_0.php:83
+msgid "Text color button"
+msgstr "Color del texto del Botón"
+
+#: includes/class.coinmotion_widget_0.php:84
+msgid " Background color hover button"
+msgstr " Color de fondo de hover del Botón"
+
+#: includes/class.coinmotion_widget_0.php:85
+msgid " Show Coinmotion button"
+msgstr " Mostrar Botón"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:9
+msgid "Sidebar widget to display currency conversor."
+msgstr "Widget del Sidebar para mostrar conversor de divisas."
+
+#: includes/class.coinmotion_widget_currency_conversor.php:11
+msgid "Coinmotion: Currency/Crypto Conversor"
+msgstr "Coinmotion: Conversor Divisa/Criptomoneda"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:286
+msgid "Currency/Crypto Conversor Title"
+msgstr "Título del Conversor de Divisa/Criptomoneda"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:293
+#: includes/class.coinmotion_widget_currency_details.php:147
+#: includes/class.coinmotion_widget_rate_period.php:196
+msgid "Widget Title"
+msgstr "Título del widget"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:306
+#: includes/class.coinmotion_widget_currency_details.php:217
+#: includes/class.coinmotion_widget_rate_period.php:209
+msgid "Design Options"
+msgstr "Opciones de Diseño"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:311
+#: includes/class.coinmotion_widget_currency_details.php:222
+msgid "Text<br/>Color"
+msgstr "Color<br/>Texto"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:324
+#: includes/class.coinmotion_widget_currency_details.php:235
+#: includes/class.coinmotion_widget_rate_period.php:227
+msgid "Background<br/>Color"
+msgstr "Color<br/>fondo"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:339
+#: includes/class.coinmotion_widget_currency_details.php:250
+#: includes/class.coinmotion_widget_rate_period.php:266
+msgid "Show<br/>Coinmotion Button"
+msgstr "Mostrar Botón"
+
+#: includes/class.coinmotion_widget_currency_details.php:10
+msgid "Sidebar widget to display historical data."
+msgstr "Widget del sidebar para mostrar datos históricos."
+
+#: includes/class.coinmotion_widget_currency_details.php:12
+msgid "Coinmotion: Historical Data"
+msgstr "Coinmotion: Datos históricos"
+
+#: includes/class.coinmotion_widget_currency_details.php:61
+msgid "Open day"
+msgstr "Apertura del Día"
+
+#: includes/class.coinmotion_widget_currency_details.php:69
+#: includes/class.coinmotion_widget_currency_details.php:103
+msgid "Day"
+msgstr "Día"
+
+#: includes/class.coinmotion_widget_currency_details.php:76
+#: includes/class.coinmotion_widget_currency_details.php:104
+msgid "Week"
+msgstr "Semana"
+
+#: includes/class.coinmotion_widget_currency_details.php:83
+#: includes/class.coinmotion_widget_currency_details.php:105
+msgid "Month"
+msgstr "Mes"
+
+#: includes/class.coinmotion_widget_currency_details.php:89
+#: includes/class.coinmotion_widget_currency_details.php:106
+msgid "3 Months"
+msgstr "3 Meses"
+
+#: includes/class.coinmotion_widget_currency_details.php:96
+#: includes/class.coinmotion_widget_currency_details.php:107
+msgid "Year"
+msgstr "Año"
+
+#: includes/class.coinmotion_widget_currency_details.php:102
+msgid "Low"
+msgstr "Más Bajo"
+
+#: includes/class.coinmotion_widget_currency_details.php:102
+msgid "High"
+msgstr "Más Alto"
+
+#: includes/class.coinmotion_widget_currency_details.php:140
+msgid "Historical Data Title"
+msgstr "Título de Datos Históricos"
+
+#: includes/class.coinmotion_widget_currency_details.php:161
+msgid "Data Options"
+msgstr "Opciones de datos"
+
+#: includes/class.coinmotion_widget_currency_details.php:166
+#: includes/class.coinmotion_widget_rate_period.php:338
+msgid "Crypto"
+msgstr "Cripto"
+
+#: includes/class.coinmotion_widget_currency_details.php:190
+#: includes/class.coinmotion_widget_rate_period.php:362
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class.coinmotion_widget_rate_period.php:12
+msgid "Sidebar widget to display price evolution."
+msgstr "Widget del Sidebar para mostrar la evolución de Precios."
+
+#: includes/class.coinmotion_widget_rate_period.php:14
+msgid "Coinmotion: Price Evolution"
+msgstr "Coinmotion: Evolución de Precios"
+
+#: includes/class.coinmotion_widget_rate_period.php:188
+msgid "Price Evolution Title"
+msgstr "Título para la Evolución de Precios"
+
+#: includes/class.coinmotion_widget_rate_period.php:189
+msgid "Line Color"
+msgstr "Color de la línea"
+
+#: includes/class.coinmotion_widget_rate_period.php:214
+msgid "Line<br/>Color"
+msgstr "Color<br/>Línea"
+
+#: includes/class.coinmotion_widget_rate_period.php:240
+msgid "Width<br/>(px or %)"
+msgstr "Anchura<br/>(px o %)"
+
+#: includes/class.coinmotion_widget_rate_period.php:252
+msgid "Height<br/>(px or %)"
+msgstr "Altura<br/>(px o %)"
+
+#: includes/class.coinmotion_widget_rate_period.php:286
+msgid "Graph Options"
+msgstr "Opciones del Gráfico"
+
+#: includes/class.coinmotion_widget_rate_period.php:291
+msgid "Points"
+msgstr "Puntos"
+
+#: includes/class.coinmotion_widget_rate_period.php:303
+msgid "Period"
+msgstr "Periodo"
+
+#: includes/class.coinmotion_widget_rate_period.php:313
+msgid " "
+msgstr ""
+
+#~ msgid ""
+#~ "Plugin to show cryptocurrency prices in real time. You can customise the "
+#~ "colors and languages ​​of the widget."
+#~ msgstr ""
+#~ "Plugin para mostrar los precios de las criptomonedas en tiempo real. "
+#~ "Puedes personalizar colores e idiomas de"
+
+#~ msgid "Displayed Currency"
+#~ msgstr "Divisa mostrada"
+
+#~ msgid "Currency: "
+#~ msgstr "Divisa: "
+
+#~ msgid "Parameters of the Shortcode"
+#~ msgstr "Parámetros del Shortcode"
+
+#~ msgid "Coinmotion plugin configuration"
+#~ msgstr "Configuración del Plugin de Coinmotion"
+
+#~ msgid ""
+#~ "The values can also be changed globally from Appearance >> Widgets >> "
+#~ "Coinmotion"
+#~ msgstr ""
+#~ "Los valores puede cambiarse también en Apariencia >> Widgets >> Coinmotion"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "<strong>¨Header Title</strong>: The header title of the widget"
+#~ msgstr ""
+#~ "<strong>Título de la Cabecera</strong>: El título de la cabecera del "
+#~ "Widget"
+
+#~ msgid "<strong>Header Title</strong>: the header title of the widget"
+#~ msgstr ""
+#~ "<strong>Título de la Cabecera</strong>: El título de la cabecera del "
+#~ "Widget"
+
+#, fuzzy
+#~| msgid "Historical Data"
+#~ msgid "Historical Data---"
+#~ msgstr "Datos históricos"
+
+#~ msgid "Currency"
+#~ msgstr "Moneda"
+
+#~ msgid "day"
+#~ msgstr "día"
+
+#~ msgid "week"
+#~ msgstr "semana"
+
+#~ msgid "month"
+#~ msgstr "mes"
+
+#~ msgid "3_months"
+#~ msgstr "3_meses"
+
+#~ msgid "year"
+#~ msgstr "año"
+
+#~ msgid "line"
+#~ msgstr "linea"
+
+#~ msgid "bar"
+#~ msgstr "barra"
+
+#~ msgid "Main Configuration of Coinmotion Plugin"
+#~ msgstr "Configuración principal del Plugin de Coinmotion"
+
+#~ msgid "This widget shows detailed information about a currency"
+#~ msgstr "Este widget muestra información detallada sobre la moneda"

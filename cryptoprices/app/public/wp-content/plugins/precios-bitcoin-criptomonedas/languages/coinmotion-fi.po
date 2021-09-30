@@ -1,0 +1,596 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coinmotion 2.0\n"
+"POT-Creation-Date: 2020-10-23 11:04+0200\n"
+"PO-Revision-Date: 2020-11-04 19:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: public\n"
+"X-Poedit-SearchPath-3: admin\n"
+"X-Poedit-SearchPath-4: coinmotion.php\n"
+"X-Poedit-SearchPath-5: index.php\n"
+"X-Poedit-SearchPath-6: uninstall.php\n"
+
+#: admin/coinmotion.php:49
+msgid "Great!"
+msgstr "Hienoa!"
+
+#: admin/coinmotion.php:49
+msgid "Data updated successfully."
+msgstr "Tiedot päivitetty onnistuneesti."
+
+#: admin/coinmotion.php:52
+msgid "Error"
+msgstr "Virhe"
+
+#: admin/coinmotion.php:52
+msgid "There are a problem updating data."
+msgstr "Virhe tietojen päivityksessä."
+
+#: admin/coinmotion.php:70
+msgid "Home"
+msgstr "Etusivu"
+
+#: admin/coinmotion.php:79
+msgid "Referral button"
+msgstr "Kutsukoodi-painikkeen"
+
+#: admin/coinmotion.php:88
+msgid "Price evolution"
+msgstr "Hintakehitys"
+
+#: admin/coinmotion.php:97
+msgid "Historical data"
+msgstr "Historiallinen data"
+
+#: admin/coinmotion.php:106
+msgid "Currency/Crypto conversor"
+msgstr "Valuutta/Krypto -muunnin"
+
+#: admin/coinmotion.php:115
+msgid "Shortcode Currency/Crypto carousel"
+msgstr "Lyhytkoodi Valuutta/Krypto Karuselli"
+
+#: admin/coinmotion.php:134
+msgid "From here you can change some characteristics globally."
+msgstr "Täältä voit muuttaa joitakin ominaisuuksia yleisesti."
+
+#: admin/coinmotion.php:140
+msgid "Referral code"
+msgstr "Kutsukoodi"
+
+#: admin/coinmotion.php:153 includes/class.coinmotion_widget_0.php:81
+msgid "Button text"
+msgstr "Painikkeen teksti"
+
+#: admin/coinmotion.php:177
+msgid "Button background color"
+msgstr "Painikkeen taustaväri"
+
+#: admin/coinmotion.php:190
+msgid "Button text color"
+msgstr "Painikkeen tekstin väri"
+
+#: admin/coinmotion.php:203
+msgid "Button hover background color"
+msgstr "Painikkeen taustaväri aktivoituneena"
+
+#: admin/coinmotion.php:206 admin/coinmotion.php:285
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: admin/coinmotion.php:234
+msgid "Plugin of the regulated cryptocurrency provider Coinmotion."
+msgstr "Säännellyn kryptovaluutan tarjoajan Coinmotion -laajennus."
+
+#: admin/coinmotion.php:235
+msgid ""
+"Here you can choose the currency that will be used globally to convert the "
+"value of the cryptocurrencies to fiat."
+msgstr ""
+"Täällä voit valita valuutan, jota käytetään maailmanlaajuisesti "
+"kryptovaluuttojen arvon muuntamiseen fiatiksi."
+
+#: admin/coinmotion.php:236
+msgid "Convert the value of cryptocurrencies to the following currency:"
+msgstr "Muunna kryptovaluuttojen arvo seuraavaksi valuutaksi:"
+
+#: admin/coinmotion.php:310
+msgid ""
+"This widget allows you to visualize in a graph the evolution of the price of "
+"the selected cryptocurrency. In the widget you can mainly set the time "
+"period to display and the currency that will be used to display the "
+"equivalent value of the cryptocurrency."
+msgstr ""
+"Tämän vimpaimen avulla voit visualisoida valitun kryptovaluutan "
+"hintakehityksen kaaviona. Vimpaimeen voit asettaa haluamasi valuutan sekä "
+"aikavälin, jolta kyseisen kryptovaluutan arvo näytetään."
+
+#: admin/coinmotion.php:311 admin/coinmotion.php:349 admin/coinmotion.php:379
+msgid "To add and configure this widget you have to go to:"
+msgstr "Lisätäksesi ja määritelläksesi tämän vimpaimen, mene:"
+
+#: admin/coinmotion.php:312 admin/coinmotion.php:350 admin/coinmotion.php:380
+msgid "Appearance > Widgets"
+msgstr "<a href=/wp-admin/widgets.php>Ulkoasu > Vimpaimet</a>"
+
+#: admin/coinmotion.php:313 admin/coinmotion.php:351 admin/coinmotion.php:381
+#: admin/coinmotion.php:409
+msgid ""
+"At the end of this tab you have an explanation of each of the features that "
+"you can configure."
+msgstr "Alta löydät selityksen kaikista konfiguroitavista ominaisuuksista"
+
+#: admin/coinmotion.php:315 admin/coinmotion.php:352 admin/coinmotion.php:382
+msgid "<strong>Header Title</strong>: The header title of the widget"
+msgstr "<strong>Pääotsikko</strong>: Vimpaimen pääotsikko"
+
+#: admin/coinmotion.php:316
+msgid "<strong>Line Color</strong>: Color of the graph line"
+msgstr "<strong>Viivan väri</strong>: Kaavion viivan väri"
+
+#: admin/coinmotion.php:317
+msgid "<strong>Background Color</strong>: Background color of the graph line"
+msgstr "<strong>Taustaväri</strong>: Kaavion taustaväri"
+
+#: admin/coinmotion.php:318
+#, php-format
+msgid ""
+"<strong>Width</strong>: Desired width of the widget. You can set with % or px"
+msgstr ""
+"<strong>Leveys</strong>: Vimpaimen haluttu leveys. Voit asettaa joko % tai px"
+
+#: admin/coinmotion.php:319
+#, php-format
+msgid ""
+"<strong>Height</strong>: Desired height of the widget. You can set with % or "
+"px"
+msgstr ""
+"<strong>Korkeus</strong>: Vimpaimen haluttu korkeus. Voit asettaa joko % tai "
+"px"
+
+#: admin/coinmotion.php:320
+msgid "<strong>Points</strong>: Points to show on the graph"
+msgstr "<strong>Pisteet</strong>: Kaaviossa näytetyt pisteet"
+
+#: admin/coinmotion.php:321
+msgid "<strong>Period</strong>: Time period to be displayed on the graph"
+msgstr "<strong>Ajanjakso</strong>: Kaaviossa näytetty ajanjakso"
+
+#: admin/coinmotion.php:322 admin/coinmotion.php:353
+msgid "<strong>Currency</strong>: Currency in which the data will be displayed"
+msgstr "<strong>Krypto</strong>: Krypto, jossa data näytetään"
+
+#: admin/coinmotion.php:323 admin/coinmotion.php:354
+msgid ""
+"<strong>Data</strong>: Type of the data to show, must be Price or Interest"
+msgstr "<strong>Data</strong>: Näytetyn datan tyyppi, joko Hinta tai Korko"
+
+#: admin/coinmotion.php:347
+msgid ""
+"This widget displays historical data of the cryptocurrency you choose. From "
+"the current price to its maximum and minimum of 1 week, 1 month, 3 months "
+"and 1 year ago."
+msgstr ""
+"Tämä vimpain näyttää historiallista dataa valitsemastasi kryptovaluutasta. "
+"Näet nykyhinnan sekä valuutan enimmäis- ja vähimmäisarvon 1 päivä, 1 viikko, "
+"1 kuukausi, 3 kuukautta tai 1 vuosi sitten."
+
+#: admin/coinmotion.php:378
+msgid ""
+"The widget is a two-way converter of the amount you set of a cryptocurrency, "
+"calculating its equivalent value in the chosen currency."
+msgstr ""
+"Vimpain on kaksisuuntainen muunnin määrittämällesi summalle, mikä laskee "
+"kryptovaluutan vastaavan arvon valitussa valuutassa."
+
+#: admin/coinmotion.php:383
+msgid "<strong>Text Color</strong>: Color of the text"
+msgstr "<strong>Teksti Väri</strong>: Tekstien väri"
+
+#: admin/coinmotion.php:384
+msgid "<strong>Background color</strong>: Background color of the conversor"
+msgstr "<strong>Taustaväri</strong>: Valuuttamuuntimen taustaväri"
+
+#: admin/coinmotion.php:408
+msgid ""
+"Shortcode that will allow you to show where you want a carousel with the "
+"main cryptocurrencies and their price in the currency you have selected."
+msgstr ""
+"Lyhytkoodi, jonka avulla voit näyttää haluamasi karusellin tärkeimmillä "
+"kryptovaluutoilla ja niiden hinnalla valitsemassasi valuutassa"
+
+#: admin/coinmotion.php:411
+msgid ""
+"<strong>text_color</strong>: (RGB or CSS color). Color of the text for the "
+"Currency Name. Default black"
+msgstr ""
+"<strong>text_color</strong>: (RGB tai CSS väri). Valuutan Nimen tekstin "
+"väri. Oletuksena “black”"
+
+#: admin/coinmotion.php:412
+msgid ""
+"<strong>orientation</strong>: (vertical / horizontal). Show in vertical or "
+"horizontal distribution. Default horizontal."
+msgstr ""
+"<strong>orientation</strong>: (vertical / horizontal). Näytä pystysuorassa "
+"tai vaakasuorassa. Oletuksena “horizontal”."
+
+#: admin/coinmotion.php:413
+msgid ""
+"<strong>show_button</strong>: (on / off). Show the Affiliate button. Default "
+"off"
+msgstr ""
+"<strong>show_button</strong>: (Näytä / Älä näytä). Näytä Affiliate painike. "
+"Oletuksena Älä näytä."
+
+#: admin/coinmotion.php:414
+msgid ""
+"<strong>cryptos</strong>: (btc,ltc,eth,xrp,xlm). Set the currencies to show. "
+"Default btc,ltc,eth,xrp,xlm."
+msgstr ""
+"<strong>cryptos</strong>: (btc,ltc,eth,xrp,xlm). Valitse näytettävät "
+"valuutat. Oletuksena btc,ltc,eth,xrp,xlm."
+
+#: admin/coinmotion.php:416
+msgid "<strong>Shortcode Example</strong>"
+msgstr "<strong>Esimerkki</strong>"
+
+#: admin/sidebar.inc.php:5
+msgid "Join Coinmotion"
+msgstr "Liity Coinmotioniin"
+
+#: admin/sidebar.inc.php:7
+#, php-format
+msgid ""
+"Each time a new user that has registered using your referral link in the "
+"plugin buys or sells cryptocurrencies in Coinmotion, you will receive 50% of "
+"all trade commissions charged on that user during the first 12 months."
+msgstr ""
+"Joka kerta, kun sinun liitännäisessä olevan kutsukoodin kautta "
+"rekisteröitynyt käyttäjä ostaa tai myy kryptovaluuttoja Coinmotionissa, saat "
+"50% kaikista kaupankäyntikuluista, jotka laskutetaan käyttäjältä ensimmäisen "
+"12 kuukauden ajan rekisteröitymisestä."
+
+#: admin/sidebar.inc.php:8
+#, php-format
+msgid ""
+"In addition, your users will enjoy a trade commission reduced by 50% during "
+"the first 30 days by creating an account in Coinmotion using your link."
+msgstr ""
+"Kaiken lisäksi, käyttäjäsi nauttivat 50% alennetusta kaupankäyntikulusta "
+"ensimmäisten 30 päivän ajan Coinmotion tilin luomisesta, jos he "
+"rekisteröityvät liitännäisessä olevan linkin kautta."
+
+#: admin/sidebar.inc.php:9
+msgid ""
+"Your rewards will be credited to your Coinmotion account. For that you must "
+"have or create a free account in Coinmotion."
+msgstr ""
+"Palkkiosi kaupankäyntikuluista maksetaan suoraan Coinmotion tilillesi. Tämän "
+"vuoksi sinulla tulee olla tili Coinmotionissa, tai sinun tulee luoda "
+"itsellesi tili."
+
+#: admin/sidebar.inc.php:12
+msgid "Create a free account"
+msgstr "Luo ilmainen tili"
+
+#: coinmotion.php:58
+msgid "price"
+msgstr "hinta"
+
+#: coinmotion.php:59
+msgid "interest"
+msgstr "kiinnostuksen kohde"
+
+#: coinmotion.php:60
+msgid "hour"
+msgstr "tunnin"
+
+#: coinmotion.php:61 includes/settings.php:6
+msgid "Real time prices"
+msgstr "Reaaliaikaiset hinnat"
+
+#: coinmotion.php:62 includes/settings.php:7
+msgid "WIDGET_REFERRAL"
+msgstr ""
+
+#: coinmotion.php:63 includes/settings.php:8
+msgid "Buy now"
+msgstr "Osta nyt"
+
+#: coinmotion.php:64
+msgid "Cryptocurrencies and Bitcoin Prices"
+msgstr "Kryptovaluutat ja Bitcoin-hinnat"
+
+#: coinmotion.php:65
+msgid ""
+"Plugin with several widgets with multiple features about cryptocurrencies. "
+"Customize language, colors, currencies, data, among 10 other options."
+msgstr ""
+"Liitännäinen useilla eri vimpaimilla, joilla on monia kryptovaluuttoja "
+"koskevia toimintoja. Valitse ja personalisoi liitännäisen kieli, värit, "
+"valuutat, data ja 10 muuta eri muuttujaa."
+
+#: coinmotion.php:90
+msgid "Coinmotion Settings"
+msgstr "Coinmotion Asetukset"
+
+#: coinmotion.php:90
+msgid "Coinmotion"
+msgstr "Coinmotion"
+
+#: coinmotion.php:159
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/class.coinmotion_values.php:147 includes/settings.php:19
+msgid "Price Evolution"
+msgstr "Hintakehitys"
+
+#: includes/class.coinmotion_values.php:160 includes/settings.php:34
+msgid "Historical Data"
+msgstr "Historiallinen data"
+
+#: includes/class.coinmotion_values.php:168 includes/settings.php:44
+msgid "Currency/Crypto Conversor"
+msgstr "Valuutta/Krypto -muunnin"
+
+#: includes/class.coinmotion_widget_0.php:6
+msgid "Sidebar widget to display cryptocurrencies exchange rates in real time."
+msgstr ""
+"Sivupalkin vimpain, joka näyttää kryptovaluuttojen hinnat reaaliajassa."
+
+#: includes/class.coinmotion_widget_0.php:8
+msgid "Coinmotion: Price Table"
+msgstr "Coinmotion: Hintataulukko"
+
+#: includes/class.coinmotion_widget_0.php:79
+msgid "Table Title"
+msgstr "Taulukon Otsikko"
+
+#: includes/class.coinmotion_widget_0.php:80
+msgid "Invitation code"
+msgstr "Kutsukoodi"
+
+#: includes/class.coinmotion_widget_0.php:82
+msgid "Button Background Color"
+msgstr "Painikkeen taustaväri"
+
+#: includes/class.coinmotion_widget_0.php:83
+msgid "Text color button"
+msgstr "Teksin väri painikkeessa"
+
+#: includes/class.coinmotion_widget_0.php:84
+msgid " Background color hover button"
+msgstr " Painikkeen taustaväri aktivoituneena"
+
+#: includes/class.coinmotion_widget_0.php:85
+msgid " Show Coinmotion button"
+msgstr "Asetukset"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:9
+msgid "Sidebar widget to display currency conversor."
+msgstr "Sivupalkin vimpain, joka näyttää valuuttamuuntimen."
+
+#: includes/class.coinmotion_widget_currency_conversor.php:11
+msgid "Coinmotion: Currency/Crypto Conversor"
+msgstr "Coinmotion: Valuutta/Krypto -muunnin"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:286
+msgid "Currency/Crypto Conversor Title"
+msgstr "Valuutta/Krytpo -muuntimen Otsikko"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:293
+#: includes/class.coinmotion_widget_currency_details.php:147
+#: includes/class.coinmotion_widget_rate_period.php:196
+msgid "Widget Title"
+msgstr "Valuutta/Krytpo -muuntimen Otsikko"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:306
+#: includes/class.coinmotion_widget_currency_details.php:217
+#: includes/class.coinmotion_widget_rate_period.php:209
+msgid "Design Options"
+msgstr "Yksityiskohdat Asetukset"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:311
+#: includes/class.coinmotion_widget_currency_details.php:222
+msgid "Text<br/>Color"
+msgstr "Teksti<br/>Väri"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:324
+#: includes/class.coinmotion_widget_currency_details.php:235
+#: includes/class.coinmotion_widget_rate_period.php:227
+msgid "Background<br/>Color"
+msgstr "Tausta<br/>Väri"
+
+#: includes/class.coinmotion_widget_currency_conversor.php:339
+#: includes/class.coinmotion_widget_currency_details.php:250
+#: includes/class.coinmotion_widget_rate_period.php:266
+msgid "Show<br/>Coinmotion Button"
+msgstr "Asetukset"
+
+#: includes/class.coinmotion_widget_currency_details.php:10
+msgid "Sidebar widget to display historical data."
+msgstr "Sivupalkin vimpain, joka näyttää historiallista dataa."
+
+#: includes/class.coinmotion_widget_currency_details.php:12
+msgid "Coinmotion: Historical Data"
+msgstr "Coinmotion: Historiallinen data"
+
+#: includes/class.coinmotion_widget_currency_details.php:61
+msgid "Open day"
+msgstr "Päivän avaushinta"
+
+#: includes/class.coinmotion_widget_currency_details.php:69
+#: includes/class.coinmotion_widget_currency_details.php:103
+msgid "Day"
+msgstr "Päivä"
+
+#: includes/class.coinmotion_widget_currency_details.php:76
+#: includes/class.coinmotion_widget_currency_details.php:104
+msgid "Week"
+msgstr "Viikko"
+
+#: includes/class.coinmotion_widget_currency_details.php:83
+#: includes/class.coinmotion_widget_currency_details.php:105
+msgid "Month"
+msgstr "Kuukausi"
+
+#: includes/class.coinmotion_widget_currency_details.php:89
+#: includes/class.coinmotion_widget_currency_details.php:106
+msgid "3 Months"
+msgstr "3 Kuukautta"
+
+#: includes/class.coinmotion_widget_currency_details.php:96
+#: includes/class.coinmotion_widget_currency_details.php:107
+msgid "Year"
+msgstr "Vuosi"
+
+#: includes/class.coinmotion_widget_currency_details.php:102
+msgid "Low"
+msgstr "Matalin"
+
+#: includes/class.coinmotion_widget_currency_details.php:102
+msgid "High"
+msgstr "Korkein"
+
+#: includes/class.coinmotion_widget_currency_details.php:140
+msgid "Historical Data Title"
+msgstr "Historiallinen Data Otsikko"
+
+#: includes/class.coinmotion_widget_currency_details.php:161
+msgid "Data Options"
+msgstr "Data-asetukset"
+
+#: includes/class.coinmotion_widget_currency_details.php:166
+#: includes/class.coinmotion_widget_rate_period.php:338
+msgid "Crypto"
+msgstr "Krypto"
+
+#: includes/class.coinmotion_widget_currency_details.php:190
+#: includes/class.coinmotion_widget_rate_period.php:362
+msgid "Type"
+msgstr "Tyyppi"
+
+#: includes/class.coinmotion_widget_rate_period.php:12
+msgid "Sidebar widget to display price evolution."
+msgstr "Sivupalkin vimpain, joka näyttää hintakehityksen."
+
+#: includes/class.coinmotion_widget_rate_period.php:14
+msgid "Coinmotion: Price Evolution"
+msgstr "Coinmotion: Hintakehitys"
+
+#: includes/class.coinmotion_widget_rate_period.php:188
+msgid "Price Evolution Title"
+msgstr "Hintakehitys Otsikko"
+
+#: includes/class.coinmotion_widget_rate_period.php:189
+msgid "Line Color"
+msgstr "Viiva Väri"
+
+#: includes/class.coinmotion_widget_rate_period.php:214
+msgid "Line<br/>Color"
+msgstr "Viiva<br/>Väri"
+
+#: includes/class.coinmotion_widget_rate_period.php:240
+msgid "Width<br/>(px or %)"
+msgstr "Leveys<br/>(px tai %)"
+
+#: includes/class.coinmotion_widget_rate_period.php:252
+msgid "Height<br/>(px or %)"
+msgstr "Korkeus<br/>(px tai %)"
+
+#: includes/class.coinmotion_widget_rate_period.php:286
+msgid "Graph Options"
+msgstr "Kaavioasetukset"
+
+#: includes/class.coinmotion_widget_rate_period.php:291
+msgid "Points"
+msgstr "Pisteet"
+
+#: includes/class.coinmotion_widget_rate_period.php:303
+msgid "Period"
+msgstr "Ajanjakso"
+
+#: includes/class.coinmotion_widget_rate_period.php:313
+msgid " "
+msgstr ""
+
+#~ msgid "Displayed Currency"
+#~ msgstr "Näytetty valuutta"
+
+#~ msgid "Currency: "
+#~ msgstr "Valuutta: "
+
+#~ msgid "Parameters of the Shortcode"
+#~ msgstr "Lyhytkoodin parametrit"
+
+#~ msgid "Coinmotion plugin configuration"
+#~ msgstr "Coinmotion liitännäisen asetukset"
+
+#~ msgid ""
+#~ "The values can also be changed globally from Appearance >> Widgets >> "
+#~ "Coinmotion"
+#~ msgstr ""
+#~ "Arvoja voi myös vaihtaa yleisesti kohdasta Ulkoasu >> Vimpaimet >> "
+#~ "Coinmotion"
+
+#~ msgid "Language"
+#~ msgstr "Kieli"
+
+#~ msgid "<strong>¨Header Title</strong>: The header title of the widget"
+#~ msgstr "<strong>Pääotsikko</strong>: Vimpaimen pääotsikko"
+
+#~ msgid "<strong>Header Title</strong>: the header title of the widget"
+#~ msgstr "<strong>Pääotsikko</strong>: Vimpaimen pääotsikko"
+
+#~ msgid "Hour"
+#~ msgstr "Tunnin"
+
+#, fuzzy
+#~| msgid "Historical Data"
+#~ msgid "Historical Data---"
+#~ msgstr "Historiallinen data"
+
+#~ msgid "Currency"
+#~ msgstr "Valuutta"
+
+#~ msgid "day"
+#~ msgstr "päivä"
+
+#~ msgid "week"
+#~ msgstr "viikko"
+
+#~ msgid "month"
+#~ msgstr "kuukausi"
+
+#~ msgid "3_months"
+#~ msgstr "3_kuukautta"
+
+#~ msgid "year"
+#~ msgstr "vuosi"
+
+#~ msgid "line"
+#~ msgstr "linja"
+
+#~ msgid "bar"
+#~ msgstr "baarit"
+
+#~ msgid "Main Configuration of Coinmotion Plugin"
+#~ msgstr "Coinmotion liitännäisen pääasetukset"
+
+#~ msgid "This widget shows detailed information about a currency"
+#~ msgstr ""
+#~ "Tämä vimpain näyttää yksityiskohtaisia tietoja valitsemastasi valuutasta"
